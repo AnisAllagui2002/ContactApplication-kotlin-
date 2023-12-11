@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsPage"
+    android:id="@+id/mainLayout">
+
+    <EditText
+        android:id="@+id/editTextNom2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="70dp"
+        android:hint="Nom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/editTextTelephone2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Téléphone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNom2"/>
+
+    <EditText
+        android:id="@+id/editTextEmail2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextTelephone2"/>
+
+    <EditText
+        android:id="@+id/editTextVille2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Ville"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmail2"/>
+
+    <EditText
+        android:id="@+id/editTextCodePostal2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Code Postal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextVille2"/>
+
+    <Button
+        android:id="@+id/Update_contact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextCodePostal2"/>
+
+    <Button
+        android:id="@+id/Delete_contact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Deelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextCodePostal2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
